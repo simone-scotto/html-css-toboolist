@@ -32,10 +32,26 @@ img {
     vertical-align: middle;
 }
 
+ul {
+    list-style-type: none;
+}
+
+
+summary {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+li {
+        height: 40px;
+}
+
+
 /*utilitis*/
 
 .container {
-    max-width: 1200px;
+    max-width: 77%;
     margin: 0 auto;
 }
 
@@ -52,6 +68,14 @@ img {
     border-bottom: 2px solid #F6F8F9 ;
 }
 
+.card-body {
+        padding-top: 35px;
+        padding-left: 50px;
+}
+
+
+/*buttons*/
+
 .button {
     height: 30px;
     border-radius: 6px;
@@ -59,15 +83,76 @@ img {
     padding: 5px 10px;
 }
 
-#task {
+
+#addtask {
     background-color: #47ADF1;
     color: white;
-    border: 1px solid #47ADF1 ;
-
+    border: 1px solid #47ADF1;
 }
 
-#section {
+#addsection {
     background-color: white;
     color: #C5CBD0;
     border: 1px solid #C5CBD0;
 }
+
+
+
+/*mail list*/
+
+.task-status {
+    width: 15px;
+    height: 15px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.task-status.positive {
+    color: #66C1AA;
+}
+
+.task-status.negative {
+    color: red;
+}
+
+.task-text {
+    vertical-align: middle;
+}
+
+.task-badge {
+    
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.task-badge.blu {
+    background-color: #47ADF1;
+}
+
+.task-badge.purple {
+    background-color: #9C72E4;
+}
+
+.task-badge.green {
+    background-color: #64C0A9;
+}
+
+.task-badge.orange {
+    background-color: #F29E33;
+}
+
+.task-badge.pink {
+    background-color: #D863A1;
+}
+
+.task-badge.olive {
+    background-color: #B0C926;
+}
+
