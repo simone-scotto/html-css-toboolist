@@ -1,0 +1,32 @@
+/*css reset*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+/*header*/
+
+header {
+    height: 70px;
+    background-color: white;
+    line-height: 70px;
+    padding-left: 25px;
+}
+h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+img {
+    vertical-align: middle;
+}
